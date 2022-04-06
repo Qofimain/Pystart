@@ -1,5 +1,6 @@
-def x(u):
-    z = u * 2
-    return z
+def multiplication(number1, number2):
+    """Функция умножение двух чисел"""
+    answer = number1 * number2
+    return answer
 
-print(x(3))
+print(multiplication(5,8))
